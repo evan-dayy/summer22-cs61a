@@ -1,33 +1,33 @@
 ------------------------------------
 Jun 21, 2022
-CS 61BL
+CS 61A Lecture2
 ------------------------------------
-Q1: How to push a directory (e.g. JAVA). webpage new repo > git clone (local) > git remote add NAME URL (Optional) > git pull NAME main > (How to add up a whole directory or anther repo)
-Ans: 1. First directly copy the file into the repo; 2. cd that directory, and $rm -fr .git file; 3. git add --all; 4. git push origin main. [if we directly add another sub-repo by accident, try to $ git rm --cached sub-repo-name]
-
-**Q2: How could I push the git init to a webpage repo? 
-Ans: 
-Create a repo on the website
-$ echo >> readme.md
-$git init
-$git add .
-$git commit m ""
-$git remote add origin URL [add origin] / $git remote add other repo URL [add others] 
-
-$git push origin main
-$git pull others main [can use --allow-unrelated-histories to force]
-
-Q3: What is branch? How does it work? Difference between main and master? [New name can set by $ git branch -m NAME] What is the difference between git push and git push origin main [BTW, what does origin mean]
-Ans: The difference is similar, git push's default is git push origin main
-
-Q4: How to remove a git? 
-Ans: we can use the $ ls -a to see the hidden file; use $ rm -fr .git to remove the git repo.
-
-Q5: Staging area only have one version of the file, the most recent add snapshot.
-
-Q6: Why we need add and commit in two step rather in two steps. 
 
 
 
 
+
+
+------------------------------------
+Jun 21, 2022
+CS 61A Lecture3
+------------------------------------
+Q1: Noticed that, when we assign a name to the max() function, we directly write the name into the box, however, when we import multiple function from operator, we use a box containing reference pointed to a func mul(...) object. Mul() and Mx() are all the build-in function.
+
+This is because when assigning a name to build in function, it directly show in the box;
+However, when we import a function (not assign a name), the intrinsic name contains the reference. 
+
+
+Q2: If do not assign a value to the lambda, so lambda function object would not exist? (Lambda x: x*x)(10), the lambda will not create a object
+
+
+Q3: could we open a frame inside a local frame
+
+
+
+------------------------------------
+Jun 28, 2022
+CS 61A Lecture3
+------------------------------------
+Q1: vim function in terminal
 
